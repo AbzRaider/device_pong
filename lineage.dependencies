@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "kernel_nothing_sm8450",
+    "target_path": "kernel/nothing/sm8450"
+  },
+  {
+    "repository": "vendor_nothing_Pong",
+    "target_path": "vendor/nothing/Pong",
+    "branch": "thirteen",
+ 
+  }
+]

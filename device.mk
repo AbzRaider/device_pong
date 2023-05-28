@@ -8,6 +8,13 @@
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+DEVICE_PATH := device/nothing/Pong
+
+
+# VNDK API
+PRODUCT_TARGET_VNDK_VERSION := 32
+PRODUCT_EXTRA_VNDK_VERSIONS := 32
+
 # A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
@@ -33,6 +40,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 33
+BOARD_SHIPPING_API_LEVEL := 31
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
